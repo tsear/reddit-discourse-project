@@ -1,0 +1,29 @@
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System junk
+.DS_Store
+
+# Sensitive or generated data
+.env
+secrets.py
+
+# Output files
+outputs/
+*.png
+*.csv
+*.json
+
+# Data folder (optional if too large or personal)
+data/
+
+# Reddit API secrets
+config.py
